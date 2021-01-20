@@ -1,0 +1,43 @@
+No prompt cmd
+
+//criando diretorio
+//'cd' e colando a pasta onde será criado o diretório, dar 'Enter'
+C:\Users\alerc>cd C:\xampp\htdocsrio
+
+//comando 'mkdir' e o nome da pasta a ser criada, dar 'Enter'
+C:\xampp\htdocs>mkdir php
+
+//acessando a pasta criada
+//'cd' e o nome da pasta
+C:\xampp\htdocs>cd php
+
+/*--- criando o repositporio git --- */
+
+//comando git init cria o repositorio git
+
+C:\xampp\htdocs\php>git init
+Initialized empty Git repository in C:/xampp/htdocs/php/.git/
+
+//acessando o diretório da pasta oculta
+//colocando /.git no fianl 
+C:\xampp\htdocs\php\.git
+
+/*--- trabalhando com os arquivos no git ---*/
+
+//levando um arquivo especifico para a stage area
+//no diretorio, comando 'git add (nome do arquivo)'
+C:\xampp\htdocs\php\teste_git>git add index.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
