@@ -14,7 +14,6 @@ C:\xampp\htdocs>cd php
 /*--- criando o repositporio git --- */
 
 //comando git init cria o repositorio git
-
 C:\xampp\htdocs\php>git init
 Initialized empty Git repository in C:/xampp/htdocs/php/.git/
 
@@ -58,6 +57,10 @@ C:\xampp\htdocs\php>git push origin master
 fatal: helper error (-1): authentication prompt was canceled
 Username for 'https://github.com': alercioborges@hotmail.com
 Password for 'https://alercioborges@hotmail.com@github.com':
+
+//caminho para visualizar os arquivos e pastas no gitHub
+https://github.com/alercioborges/php/tree/master
+https://github.com/alercioborges/php/tree/master/teste_git
 
 
 
