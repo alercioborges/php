@@ -22,11 +22,42 @@ Initialized empty Git repository in C:/xampp/htdocs/php/.git/
 //colocando /.git no fianl 
 C:\xampp\htdocs\php\.git
 
+/*--- configurando nome e e-mail de usuario ---*/
+//configurando nome de usuaario
+C:\xampp\htdocs\php>git config --global user.name "alercioborges"
+
+//configurando nome de usuaario
+//mesmo email que cadastrado no GitHub
+C:\xampp\htdocs\php>git config --global user.email "alercioborges@hotmail.com"
+
 /*--- trabalhando com os arquivos no git ---*/
 
 //levando um arquivo especifico para a stage area
 //no diretorio, comando 'git add (nome do arquivo)'
 C:\xampp\htdocs\php\teste_git>git add index.php
+
+//mandando para a stage area todos os arquivos e pastas
+//comando 'git add --all'
+C:\xampp\htdocs\php\teste_git>git add --all
+
+//Fazendo o commit para a pasta .git
+C:\xampp\htdocs\php>git commit -m "mensagem de texto"
+
+/*--- subindo os arquivos no GitHub ---*/
+
+//url criada no perfil do GitHub
+//'php' -> pasta de projeto do GitHub criado
+C:\xampp\htdocs\php>git remote add origin https://github.com/alercioborges/php
+
+
+//comando para subir os arquivos e pastas para o GH
+//fechar a caixinha que abrirá
+//inserir e-mail cadastrado no GH
+//inserir senha
+C:\xampp\htdocs\php>git push origin master
+fatal: helper error (-1): authentication prompt was canceled
+Username for 'https://github.com': alercioborges@hotmail.com
+Password for 'https://alercioborges@hotmail.com@github.com':
 
 
 
